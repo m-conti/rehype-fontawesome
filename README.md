@@ -125,7 +125,7 @@ const options: FontAwesomeOptions = {
 
 ## License
 
-MIT © [Your Name]
+MIT © Matthieu Conti
 
 ## Contributing
 
