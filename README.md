@@ -1,5 +1,10 @@
 # rehype-fontawesome
 
+![npm](https://img.shields.io/npm/v/rehype-fontawesome)
+![license](https://img.shields.io/github/license/m-conti/rehype-fontawesome)
+![bundle size](https://img.shields.io/bundlephobia/min/rehype-fontawesome)
+
+
 A [rehype](https://github.com/rehypejs/rehype) plugin to transform Font Awesome shortcodes into HTML elements.
 
 ## Installation
