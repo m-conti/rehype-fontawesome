@@ -1,6 +1,6 @@
 {
   "name": "rehype-fontawesome",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Rehype plugin to transform Font Awesome shortcodes into HTML elements",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
