@@ -1,0 +1,64 @@
+{
+  "name": "rehype-fontawesome",
+  "version": "1.0.0",
+  "description": "Rehype plugin to transform Font Awesome shortcodes into HTML elements",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts",
+    "dev": "tsup src/index.ts --format cjs,esm --dts --watch",
+    "test": "vitest",
+    "lint": "eslint src --ext .ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "rehype",
+    "rehype-plugin",
+    "fontawesome",
+    "font-awesome",
+    "markdown",
+    "html",
+    "icons"
+  ],
+  "author": "Matthieu Conti",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/m-conti/rehype-fontawesome.git"
+  },
+  "bugs": {
+    "url": "https://github.com/m-conti/rehype-fontawesome/issues"
+  },
+  "homepage": "https://github.com/m-conti/rehype-fontawesome#readme",
+  "peerDependencies": {
+    "unist-util-visit": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/hast": "^3.0.4",
+    "@types/node": "^20.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "hast": "^1.0.0",
+    "hast-util-from-html": "^2.0.0",
+    "rehype": "^13.0.0",
+    "rehype-parse": "^9.0.1",
+    "rehype-stringify": "^10.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0",
+    "unified": "^11.0.0",
+    "unist-util-visit": "^5.0.0",
+    "vitest": "^1.0.0"
+  }
+}
